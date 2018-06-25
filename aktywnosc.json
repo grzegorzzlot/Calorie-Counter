@@ -1,0 +1,300 @@
+[
+{"type":"header","version":"4.7.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"organizer"},
+{"type":"table","name":"produkty","database":"organizer","data":
+[
+	{
+		"nazwa_aktywnosci": "Aerobik",
+		"spalone_kalorie": "550"
+	},
+	{
+		"nazwa_aktywnosci": "Aerobik w wodzie",
+		"spalone_kalorie": "580"
+	},
+	{
+		"nazwa_aktywnosci": "Badminton",
+		"spalone_kalorie": "400"
+	},
+	{
+		"nazwa_aktywnosci": "Bieg (km przez 3)",
+		"spalone_kalorie": "40 min)"
+	},
+	{
+		"nazwa_aktywnosci": "Bieg (km przez 5 min)",
+		"spalone_kalorie": "1000"
+	},
+	{
+		"nazwa_aktywnosci": "Ćwiczenia na siłowni",
+		"spalone_kalorie": "400"
+	},
+	{
+		"nazwa_aktywnosci": "Chodzenie po sklepie",
+		"spalone_kalorie": "250"
+	},
+	{
+		"nazwa_aktywnosci": "Czytanie",
+		"spalone_kalorie": "25"
+	},
+	{
+		"nazwa_aktywnosci": "Czytanie głośno",
+		"spalone_kalorie": "150"
+	},
+	{
+		"nazwa_aktywnosci": "Golf",
+		"spalone_kalorie": "250"
+	},
+	{
+		"nazwa_aktywnosci": "Gotowanie",
+		"spalone_kalorie": "105"
+	},
+	{
+		"nazwa_aktywnosci": "Gra na pianinie 15 min.",
+		"spalone_kalorie": "120"
+	},
+	{
+		"nazwa_aktywnosci": "Gra w kręgle",
+		"spalone_kalorie": "300"
+	},
+	{
+		"nazwa_aktywnosci": "Gra w piłkę nożną",
+		"spalone_kalorie": "650"
+	},
+	{
+		"nazwa_aktywnosci": "Yoga",
+		"spalone_kalorie": "288"
+	},
+	{
+		"nazwa_aktywnosci": "Intensywna gimnastyka",
+		"spalone_kalorie": "300"
+	},
+	{
+		"nazwa_aktywnosci": "Jazda konna",
+		"spalone_kalorie": "650"
+	},
+	{
+		"nazwa_aktywnosci": "Jazda na deskorolce",
+		"spalone_kalorie": "371"
+	},
+	{
+		"nazwa_aktywnosci": "Jazda na nartach biegowych",
+		"spalone_kalorie": "574"
+	},
+	{
+		"nazwa_aktywnosci": "Jazda na nartach wodnych",
+		"spalone_kalorie": "441"
+	},
+	{
+		"nazwa_aktywnosci": "Jazda na nartach zjazdowych",
+		"spalone_kalorie": "511"
+	},
+	{
+		"nazwa_aktywnosci": "Jazda na rolkach",
+		"spalone_kalorie": "400"
+	},
+	{
+		"nazwa_aktywnosci": "Jazda na rowerze (10 km/h)",
+		"spalone_kalorie": "300"
+	},
+	{
+		"nazwa_aktywnosci": "Jazda na rowerze (20 km/h",
+		"spalone_kalorie": "600"
+	},
+	{
+		"nazwa_aktywnosci": "Jogging",
+		"spalone_kalorie": "600"
+	},
+	{
+		"nazwa_aktywnosci": "Kopanie",
+		"spalone_kalorie": "500"
+	},
+	{
+		"nazwa_aktywnosci": "Koszykówka",
+		"spalone_kalorie": "550"
+	},
+	{
+		"nazwa_aktywnosci": "Lekka gimnastyka",
+		"spalone_kalorie": "210"
+	},
+	{
+		"nazwa_aktywnosci": "Lekka praca biurowa",
+		"spalone_kalorie": "140"
+	},
+	{
+		"nazwa_aktywnosci": "Marszobieg",
+		"spalone_kalorie": "500"
+	},
+	{
+		"nazwa_aktywnosci": "Mycie okien",
+		"spalone_kalorie": "240"
+	},
+	{
+		"nazwa_aktywnosci": "Mycie podłogi",
+		"spalone_kalorie": "250"
+	},
+	{
+		"nazwa_aktywnosci": "Odkurzanie",
+		"spalone_kalorie": "260"
+	},
+	{
+		"nazwa_aktywnosci": "Piłowanie drewna",
+		"spalone_kalorie": "450"
+	},
+	{
+		"nazwa_aktywnosci": "Ping-pong",
+		"spalone_kalorie": "280"
+	},
+	{
+		"nazwa_aktywnosci": "Pływanie",
+		"spalone_kalorie": "400"
+	},
+	{
+		"nazwa_aktywnosci": "Praca ekspedientki",
+		"spalone_kalorie": "280"
+	},
+	{
+		"nazwa_aktywnosci": "Praca kamieniarska",
+		"spalone_kalorie": "400"
+	},
+	{
+		"nazwa_aktywnosci": "Praca w ogródku",
+		"spalone_kalorie": "250"
+	},
+	{
+		"nazwa_aktywnosci": "Pranie ręczne",
+		"spalone_kalorie": "150"
+	},
+	{
+		"nazwa_aktywnosci": "Prasowanie",
+		"spalone_kalorie": "144"
+	},
+	{
+		"nazwa_aktywnosci": "Prowadzenie samochodu",
+		"spalone_kalorie": "126"
+	},
+	{
+		"nazwa_aktywnosci": "Robienie na drutach",
+		"spalone_kalorie": "55"
+	},
+	{
+		"nazwa_aktywnosci": "Robienie zakupów",
+		"spalone_kalorie": "300"
+	},
+	{
+		"nazwa_aktywnosci": "Schodzenie ze schodów",
+		"spalone_kalorie": "364"
+	},
+	{
+		"nazwa_aktywnosci": "Ścieranie kurzy",
+		"spalone_kalorie": "240"
+	},
+	{
+		"nazwa_aktywnosci": "Siatkówka",
+		"spalone_kalorie": "450"
+	},
+	{
+		"nazwa_aktywnosci": "Siatkówka plażowa",
+		"spalone_kalorie": "588"
+	},
+	{
+		"nazwa_aktywnosci": "Skakanie na skakance",
+		"spalone_kalorie": "574"
+	},
+	{
+		"nazwa_aktywnosci": "Słanie łóżka",
+		"spalone_kalorie": "200"
+	},
+	{
+		"nazwa_aktywnosci": "Spacer szybkim tempie",
+		"spalone_kalorie": "300"
+	},
+	{
+		"nazwa_aktywnosci": "Spacer w umiarkowanym tempie",
+		"spalone_kalorie": "200"
+	},
+	{
+		"nazwa_aktywnosci": "Sen",
+		"spalone_kalorie": "62"
+	},
+	{
+		"nazwa_aktywnosci": "Śpiew",
+		"spalone_kalorie": "122"
+	},
+	{
+		"nazwa_aktywnosci": "Sprzątanie łazienki",
+		"spalone_kalorie": "240"
+	},
+	{
+		"nazwa_aktywnosci": "Sprzątanie pokoju",
+		"spalone_kalorie": "180"
+	},
+	{
+		"nazwa_aktywnosci": "Squash",
+		"spalone_kalorie": "497"
+	},
+	{
+		"nazwa_aktywnosci": "Stanie na baczność",
+		"spalone_kalorie": "115"
+	},
+	{
+		"nazwa_aktywnosci": "Stanie swobodne",
+		"spalone_kalorie": "100"
+	},
+	{
+		"nazwa_aktywnosci": "Szorowanie podłóg",
+		"spalone_kalorie": "426"
+	},
+	{
+		"nazwa_aktywnosci": "Szybki marsz 6 km/h",
+		"spalone_kalorie": "150"
+	},
+	{
+		"nazwa_aktywnosci": "Szycie na maszynie",
+		"spalone_kalorie": "135"
+	},
+	{
+		"nazwa_aktywnosci": "Szycie ręczne",
+		"spalone_kalorie": "111"
+	},
+	{
+		"nazwa_aktywnosci": "Taniec w dyskotece",
+		"spalone_kalorie": "500"
+	},
+	{
+		"nazwa_aktywnosci": "Tenis",
+		"spalone_kalorie": "450"
+	},
+	{
+		"nazwa_aktywnosci": "Trzepanie dywanów",
+		"spalone_kalorie": "260"
+	},
+	{
+		"nazwa_aktywnosci": "Ubieranie się i rozbieranie",
+		"spalone_kalorie": "118"
+	},
+	{
+		"nazwa_aktywnosci": "Układanie dokumentów",
+		"spalone_kalorie": "200"
+	},
+	{
+		"nazwa_aktywnosci": "Wchodzenie po schodach",
+		"spalone_kalorie": "1100"
+	},
+	{
+		"nazwa_aktywnosci": "Wędkowanie",
+		"spalone_kalorie": "300"
+	},
+	{
+		"nazwa_aktywnosci": "Wiosłowanie",
+		"spalone_kalorie": "500"
+	},
+	{
+		"nazwa_aktywnosci": "Zamiatanie podłogi",
+		"spalone_kalorie": "100"
+	},
+	{
+		"nazwa_aktywnosci": "Zmywanie naczyń",
+		"spalone_kalorie": "114"
+	}
+]
+}
+]

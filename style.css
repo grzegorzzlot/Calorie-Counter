@@ -1,0 +1,347 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*global*/
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0 ;
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+}
+select.form-control {
+    border-top: none;
+}
+.remove-content {
+    display: none;
+}
+
+/***************PODSTAWOWE INFORMACJE*********************/
+input[type="radio"]{
+    visibility: hidden;
+}
+input[type="radio"] + span {
+    color: #666666;
+}
+input[type="radio"] + span:before{
+	content: "\f10c";
+	font-family: "FontAwesome";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing:antialiased;
+	width: 1em;
+	display: inline-block;
+	margin-right: 5px;
+}
+input[type="radio"]:checked + span:before{
+	content: "\f192";
+	color: #449d44;
+	animation: effect 250ms ease-in;
+}
+.glowne-parametry {
+    display: block;
+    width: 50px;
+    color: #666666;
+    float: left;
+    margin: 10px 0;
+}
+.podstawowe-informacje input[type="text"] {
+    margin: 10px 10px;
+    padding: 11px;
+    border: 1px #999999 solid;
+    width: 25%;
+    box-sizing: border-box;
+    height: 20px;
+    color: #666666;
+}
+/***************OBSŁUGA WYSZUKIWARKI*********************/
+#search-content {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
+}
+#search-content option {
+    padding: 6px;
+    display: block;
+}
+#search-content option:hover {
+    background-color: #eeeeee;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    
+}
+th {
+    width: 20%;
+}
+input[type=number]{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.table-header tr,
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.table-header tr {
+    font-weight: 700;
+}
+/**************************DODANE PRODUKTY*****************************/
+.posilki .panel-heading {
+    position: relative;
+}
+.posilki .panel-heading button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.food-item {
+    margin-bottom: 10px;
+}
+.food-item > div {
+    position: relative;
+    width: 14.28%;
+    height: 100px;
+    float: left;
+    border: 1px solid #dddddd;
+    border-right: none;
+}
+.food-item input {
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+.naz-done {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+.item-remove {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.food-item > div:nth-child(7) {
+    border-right: 1px solid #dddddd;
+}
+.food-item .media-object {
+    height: 100%;
+    margin: 0 auto;
+}
+.item-title {
+    width: 100%;
+    height: 30px;
+    background-color: #dddddd;
+}
+.item-title p {
+    text-align: center;
+    padding: 4px;
+}
+/**************************DODAWANIE AKTYWNOŚCI*************************/
+.aktywnosc .panel-heading {
+    position: relative;
+}
+.aktywnosc .panel-heading button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.aktywnosc h4 {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+/*CZAS*/
+#czas {
+    margin: 10px 10px;
+    padding: 11px;
+    border: 1px #999999 solid;
+    width: 100px;
+    box-sizing: border-box;
+    height: 20px;
+    color: #666666;
+}
+#czas + span {
+    margin-left: 10px;
+    color: #666666;
+}
+.formy-aktywnosci {
+    padding: 5px;
+}
+#dodaj-aktywnosc {
+    margin-top: 20px;
+}
+.pojedyncza-aktywnosc {
+    margin-bottom: 10px;
+}
+.pojedyncza-aktywnosc > div {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    height: 80px;
+    border: 1px #dddddd solid;
+}
+.pojedyncza-aktywnosc > div > p:first-child {
+    display: block;
+    text-align: center;
+    height: 30px;
+    background-color: #dddddd;
+    padding: 4px;
+}
+.pojedyncza-aktywnosc > div:nth-child(1) > p:nth-child(2),
+.wartosc-aktywnosci{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    border: none;
+    background-color: #ffffff;
+}
+.usun-aktywnosc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+/**************************PRZYCISK OBLICZ***************************/
+#oblicz{
+    display: block;
+    margin: 50px auto 100px auto;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 25px;
+}
+#oblicz:hover {
+    text-decoration: underline;
+}
+
+/*******************ERROR******************************************/
+#error {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .45);
+    z-index: 100;
+}
+#error div {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+    width: 300px;
+    height: 188px;
+    border: 1px #ffffff solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(102,102,102,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(102,102,102,1);
+    box-shadow: 10px 10px 5px 0px rgba(102,102,102,1);
+}
+#error p {
+    text-align: center;
+    margin: 20px 20px;
+}
+#error button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,0);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*******************************WYNIKI****************************/
+#wyniki {
+    display: none;
+    margin-bottom: 50vh;
+}
+#wyniki p,
+#wyniki .panel-body h3 {
+    margin-bottom: 10px;
+}
+#wyniki input {
+    text-align: left;
+    background-color: #ffffff;
+    border: none;
+    font-weight: 700;
+}
+/****************************WALIDACJA*******************************/
+.parametr-group {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.glyphicon.glyphicon-exclamation-sign {
+    display: none;
+    color: #DB083E !important;
+}
+.input-text-invalid {
+    border: 1px #DB083E solid !important;
+    background: #FFEDED;
+    color: #ec194f !important; 
+}
+.input-radio-invalid + span {
+    color: #ec194f !important; 
+}
