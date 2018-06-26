@@ -25,7 +25,7 @@ var addElement = (function () {
 var promisePosilki = new Promise(
     function (resolve, reject) {
         var xhr = new XMLHttpRequest();
-        xhr.open("GET", 'http://localhost/projekty/organizer/produkty.json', true);
+        xhr.open("GET", 'produkty.json', true);
         xhr.addEventListener('load', function () {
             return resolve(xhr.responseText);
         });
@@ -249,7 +249,7 @@ document.addEventListener('click', function (event) {
 var promiseAktywnosc = new Promise(
     function (resolve, reject) {
         var xhr = new XMLHttpRequest();
-        xhr.open("GET", 'http://localhost/projekty/organizer/aktywnosc.json', true);
+        xhr.open("GET", 'aktywnosc.json', true);
         xhr.addEventListener('load', function () {
             return resolve(xhr.responseText);
         });
